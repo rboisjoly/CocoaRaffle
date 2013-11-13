@@ -650,7 +650,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="1081" height="734"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1178"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1028"/>
             <view key="contentView" id="372">
                 <rect key="frame" x="0.0" y="0.0" width="1081" height="734"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -766,12 +766,12 @@
         <customObject id="494" customClass="AppDelegate">
             <connections>
                 <outlet property="bigTitle" destination="fne-nR-AiJ" id="wYQ-TD-UOR"/>
+                <outlet property="hostHeadImage" destination="kH8-Zi-12W" id="6Zu-DZ-C2a"/>
                 <outlet property="marqueeImageView" destination="aX0-35-tFZ" id="VUB-qf-fWe"/>
                 <outlet property="noComicSansImageView" destination="vUI-mo-LW2" id="KgL-3X-Jhc"/>
                 <outlet property="participants" destination="aWG-Mc-f2Q" id="kmc-PL-Rec"/>
                 <outlet property="prizeImageView" destination="uM0-f5-F33" id="Uqg-NV-Me3"/>
                 <outlet property="prizesLeftField" destination="Vtg-sw-ImI" id="lMx-5q-vYt"/>
-                <outlet property="samHeadImage" destination="kH8-Zi-12W" id="sSu-KB-w9U"/>
                 <outlet property="window" destination="371" id="532"/>
                 <outlet property="winnerField" destination="ciz-3p-Jud" id="2ZD-Ng-Bq4"/>
             </connections>

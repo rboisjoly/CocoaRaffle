@@ -27,7 +27,7 @@
 @property (weak) IBOutlet NSTextField *winnerField;
 @property (weak) IBOutlet NSImageView *prizeImageView;
 @property (weak) IBOutlet NSImageView *noComicSansImageView;
-@property (weak) IBOutlet NSButton *samHeadImage;
+@property (weak) IBOutlet NSButton *hostHeadImage;
 @property (weak) IBOutlet NSTextField *prizesLeftField;
 
 

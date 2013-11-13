@@ -3,7 +3,7 @@
 //  CocoaRaffle
 //
 //  Created by Renaud Boisjoly on 2013-11-12.
-//  Copyright (c) 2013 Lagente. All rights reserved.
+//  Copyright (c) 2013 Lagente. All rights reserved
 //
 
 #import "AppDelegate.h"
@@ -49,11 +49,11 @@
     [fullRotation setToValue:[NSNumber numberWithFloat:((10*M_PI)/180)]];
     [fullRotation setDuration:0.6];
     fullRotation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-    [self.samHeadImage setWantsLayer:YES];
+    [self.hostHeadImage setWantsLayer:YES];
     fullRotation.repeatCount = HUGE_VALF;
     fullRotation.autoreverses = YES;
     
-    [[self.samHeadImage layer] addAnimation:fullRotation forKey:@"transform.rotation"];
+    [[self.hostHeadImage layer] addAnimation:fullRotation forKey:@"transform.rotation"];
 
     
     self.allWinners = [NSMutableArray array];
