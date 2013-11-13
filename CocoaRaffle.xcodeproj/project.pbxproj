@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E28E83BD1833F07A00F5D24E /* CocoaHeadsMontralNov12Raffle.csv in Resources */ = {isa = PBXBuildFile; fileRef = E28E83BC1833F07A00F5D24E /* CocoaHeadsMontralNov12Raffle.csv */; };
 		E2A7A2721832A68400291AAF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A7A2711832A68400291AAF /* Cocoa.framework */; };
 		E2A7A27C1832A68400291AAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2A7A27A1832A68400291AAF /* InfoPlist.strings */; };
 		E2A7A27E1832A68400291AAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A7A27D1832A68400291AAF /* main.m */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E28E83BC1833F07A00F5D24E /* CocoaHeadsMontralNov12Raffle.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CocoaHeadsMontralNov12Raffle.csv; sourceTree = "<group>"; };
 		E2A7A26E1832A68400291AAF /* CocoaRaffle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaRaffle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A7A2711832A68400291AAF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E2A7A2741832A68400291AAF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -169,6 +171,7 @@
 				E2A7A2A51832A6C200291AAF /* SMModelObject.h */,
 				E2A7A2A61832A6C200291AAF /* SMModelObject.m */,
 				E2B5802A1833DC42003A35A2 /* cocoaraffle.md */,
+				E28E83BC1833F07A00F5D24E /* CocoaHeadsMontralNov12Raffle.csv */,
 				E2B580291833D5D7003A35A2 /* Images */,
 				E2A7A2781832A68400291AAF /* Supporting Files */,
 			);
@@ -320,6 +323,7 @@
 				E2A7A2B51832B1A100291AAF /* spark.png in Resources */,
 				E2A7A2BD1832BE4100291AAF /* marquee_1@2x.png in Resources */,
 				E2A7A2881832A68400291AAF /* MainMenu.xib in Resources */,
+				E28E83BD1833F07A00F5D24E /* CocoaHeadsMontralNov12Raffle.csv in Resources */,
 				E2A7A2B31832B1A100291AAF /* pppro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
