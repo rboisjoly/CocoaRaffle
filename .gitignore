@@ -1,0 +1,10 @@
+.DS_Store
+*.pyc
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+project.xcworkspace
+xcuserdata
+*.sublime-workspace
