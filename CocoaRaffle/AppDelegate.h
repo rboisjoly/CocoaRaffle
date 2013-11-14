@@ -11,13 +11,6 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
-@property (nonatomic,strong) NSMutableArray *allPlayers;
-@property (nonatomic,strong) NSMutableArray *remainingPlayers;
-@property (nonatomic,strong) NSMutableArray *allWinners;
-
-@property (nonatomic,strong) NSMutableArray *allPrizes;
-@property (nonatomic,strong) NSMutableArray *remainingPrizes;
-@property (nonatomic,strong) NSArray *allMarqueeImages;
 
 
 
