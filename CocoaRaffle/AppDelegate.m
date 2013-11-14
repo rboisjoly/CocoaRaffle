@@ -114,7 +114,7 @@
 }
 
 
-- (IBAction)getParticipantsList:(id)sender {
+- (IBAction)loadParticipantsList:(id)sender {
     [self createParticipantsFromFile];
 }
 

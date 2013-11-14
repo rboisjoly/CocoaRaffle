@@ -31,7 +31,7 @@
 @property (weak) IBOutlet NSTextField *prizesLeftField;
 
 
-- (IBAction)getParticipantsList:(id)sender;
+- (IBAction)loadParticipantsList:(id)sender;
 - (IBAction)killComicSans:(id)sender;
 - (IBAction)nextPrize:(id)sender;
 - (IBAction)drawWinner:(id)sender;

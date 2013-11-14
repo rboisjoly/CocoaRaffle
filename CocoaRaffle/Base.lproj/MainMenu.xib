@@ -668,7 +668,7 @@
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
-                            <action selector="getParticipantsList:" target="494" id="kmd-K3-qjO"/>
+                            <action selector="loadParticipantsList:" target="494" id="wCc-YT-1ZP"/>
                         </connections>
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aWG-Mc-f2Q">
